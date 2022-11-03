@@ -12,7 +12,7 @@ function Place(props: PlacesProps): JSX.Element {
         <>
         <img src={props.image} />
         <h2>{props.title}</h2>
-        <p><b>{props.place}, {props.country}</b> (<a href="https://goo.gl/maps/k6AALyUJydmRSEKT8">google maps link</a>)</p>
+        <p><b>{props.place}, {props.country}</b> (<a href="https://goo.gl/maps/k6AALyUJydmRSEKT8">google maps</a>)</p>
         <p>{props.description}</p>
         </>
     );
