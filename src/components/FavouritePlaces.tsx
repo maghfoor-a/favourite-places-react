@@ -17,7 +17,7 @@ function FavouritePlaces(): JSX.Element {
       />
       <Place
         title={"Big and Scary"}
-        place={"ALton Towers"}
+        place={"Alton Towers"}
         country={"United Kingdom"}
         image={"http://www.picturesofengland.com/img/L/1185174.jpg"}
         maps={"https://goo.gl/maps/Z7nXNKpXVsfHrAkE6"}
