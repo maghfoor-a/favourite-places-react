@@ -10,7 +10,7 @@ interface PlacesProps {
 function Place(props: PlacesProps): JSX.Element {
   return (
     <>
-      <img src={props.image} alt="Picture" />
+      <img src={props.image} alt="cool place" />
       <h2>{props.title}</h2>
       <p>
         <b>
