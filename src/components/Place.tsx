@@ -16,7 +16,7 @@ function Place(props: PlacesProps): JSX.Element {
         <b>
           {props.place}, {props.country}
         </b>{" "}
-        (<a href="https://goo.gl/maps/k6AALyUJydmRSEKT8">google maps</a>)
+        (<a href={props.maps}>google maps</a>)
       </p>
       <p>{props.description}</p>
     </>
