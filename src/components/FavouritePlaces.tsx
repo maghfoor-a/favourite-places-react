@@ -31,18 +31,33 @@ function FavouritePlaces(): JSX.Element {
       </section>
       <section className="EachPlace">
         <Place
-          title={"Majestic Castle"}
-          place={"Buckingham Palace"}
+          title={"A Place to Push Your Limits"}
+          place={"Social Climbing Leicester"}
           country={"United Kingdom"}
           image={
-            "https://cdn.londonandpartners.com/asset/buckingham-palace_image-courtesy-of-royal-collection-trust-her-majesty-queen-elizabeth-ii-2021-photo-andrew-holt_247a2afaed0312ad4e8fb6142fdcdd5a.jpg"
+            "https://i.ytimg.com/vi/o8aQchmI9AQ/maxresdefault.jpg"
           }
-          maps={"https://goo.gl/maps/R5hyu1tcXJ4fi9JS9"}
+          maps={"https://goo.gl/maps/Mz8VEejho1sHwgoc6"}
           description={
-            "One the most famous royal castles in the UK. This places makes people want to visit the UK. blah blah blah"
+            "A climbing gym with lots of puzzles and a great community. Welcoming beginners as well as professionals."
           }
         />
       </section>
+      <section className="EachPlace">
+        <Place
+          title={"Another Theme Park"}
+          place={"Drayton Manor Theme Park"}
+          country={"United Kingdom"}
+          image={
+            "https://www.draytonmanor.co.uk/fileadmin/user_upload/drayton_manor/Areas/adventure-cove-800x450.jpg"
+          }
+          maps={"https://goo.gl/maps/bPfmQv2sjKpLNDtr7"}
+          description={
+            "Drayton Manor Resort is home to a variety of exciting attractions with roller coasters, zoo and Thomas Land. Visit us today for the ultimate family day out!"
+          }
+        />
+      </section>
+      
     </section>
   );
 }
