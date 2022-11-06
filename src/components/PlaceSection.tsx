@@ -1,4 +1,4 @@
-import Place from "./Place"
+import Place from "../type/Place"
 
 function PlaceSection({
     title,
