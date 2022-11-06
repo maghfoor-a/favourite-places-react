@@ -9,7 +9,7 @@ function PlaceSection({
     description,
 }: Place): JSX.Element {
     return (
-        <section>
+        <section className="EachPlace">
             <img src={image} alt={title} />
             <h1>{title}</h1>
             <h3>{place}, {country} (<a href={maps}>google maps</a>)</h3>
