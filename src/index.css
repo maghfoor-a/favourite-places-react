@@ -1,7 +1,7 @@
 body {
   margin-top: 0px;
   text-align: center;
-  background: #f3edee;
+  background: #0a915d;
 }
 img {
   width:  600px;
@@ -37,9 +37,9 @@ img {
 
   padding-top: 20px;
 
-  border: 2px solid rgb(157, 212, 150);
+  border: 2px solid rgb(0, 70, 52);
   border-radius: 5px;
 
-  color: rgb(236, 209, 209);
+  color: rgb(255, 255, 255);
 }
 
